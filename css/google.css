@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+}
+.top-nav {
+    display: flex;
+    gap: 10px;
+    padding-inline-start: 1650px;
+    height: 50px;
+    align-items: center;
+}
+
+main {
+    height: 780px;
+}
+
+footer {
+    height: 110px;
+    background-color: #f2f2f2;
+}
+
+/*Section class*/
+
+.google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 290px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.sub-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+
+/*buttons dec*/
+.g-a {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.g-ac {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.g-search {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*div class*/
+.google-apps {
+    height: 40px;
+    width: 40px;
+}
+
+
+.google-apps:hover {
+    opacity: 1;
+    background-color: #d4d6db;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.profile {
+    height: 40px;
+    width: 40px;
+}
+
+.profile:hover {
+    opacity: 1;
+    background-color: #d4d6db;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.g-logo {
+    margin-top: auto;
+}
+
+.s-bar {
+    margin-top: 20px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    min-height: 44px;
+    background: #fff;
+    border-radius: 24px;
+    width: 590px;
+}
+
+.mag-icon {
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.mic-icon {
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.cam-icon {
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.des-1 {
+    margin-top: 5px;
+}
+
+.img-c {
+    display: flex;
+}
+
+.ph {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 30px;
+    color: #70757a;
+    margin-bottom: 20px;
+}
+
+.nav-foot {
+    border-top: 1px solid rgb(206, 206, 206);
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    margin-top: 20px;
+}
+
+.about ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.privacy {
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.privacy ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+/*Search bar*/
+
+.bar {
+    margin-top: 6px;
+    width: 440px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    outline: 0;
+}
+
+/*img and svg*/
+.gb_i {
+    margin-top: 4px;
+}
+
+.img {
+    border-radius: 50%;
+    margin-top: 4px;
+}
+
+.img-1 {
+    height: 30px;
+    width: 30px;
+}
+
+/*Utilities*/
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.a-foot {
+    color: #70757a;
+}
+
+.a-foot:hover {
+    text-decoration: underline;
+}
+
+.g-search:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.s-bar:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
